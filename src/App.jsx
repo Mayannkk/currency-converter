@@ -1,9 +1,12 @@
-import { useState } from "react";
+import InputBox from "./components/InputBox";
+import useCurrencyInfo from "./hooks/useCurrencyInfo";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <h1>Hi</h1>;
+  return (
+    <>
+      <InputBox />
+    </>
+  );
 }
 
 export default App;
